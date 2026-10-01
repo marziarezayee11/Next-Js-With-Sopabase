@@ -1,5 +1,36 @@
 {
-    "home":{
-        "title":"thes is the home page"
+    "nav":{
+        "logo":" StArS OnLiNe StOrE",
+        "btnl":"LogIn",
+         "btn_l":"Light",
+          "btn_d":"Dark",
+          "btn_s":"System"
+
+    },
+
+
+    "homepage":{
+        "herosection":{
+            "title":"Explore thousands of daily essentials, trends, and exclusive deals.",
+            "description":"Welcome to your ultimate online shopping destination! We bring you a curated collection of high-quality products, ranging from the latest fashion trends and must-have electronics to beautiful home decor and daily essentials. Our mission is to provide you with a seamless shopping experience, affordable prices, and fast, reliable delivery right to your doorstep. Shop with confidence and discover amazing deals every day. Your satisfaction is our top priority!",
+            "btn-exp":"Explore More",
+            "btn-join":"Join Us"
+        },
+      "features" : { 
+  "subtitle" : "FeaTurEs" , 
+  "title" : "Our Special FeaTurEs" , 
+  "feature1" : {
+     "title" : "SeCuRiTy" , 
+  "description" : "Your data in this app is completely secure and encrypted." }, 
+  "feature2" : {
+     "title" : "SpEeD" ,
+  "description": "Experience lightning-fast performance and seamless navigation." }, 
+  "feature3" : {
+     "title" : "UsEr-FrIeNdLy" ,
+   "description" : "Enjoy a simple, clean, and intuitive interface designed for everyone." }, 
+  "feature4" : {
+     "title" : "24/7 SuPpoRt" ,
+   "description" : "Our dedicated team is always here to help you anytime, anywhere." } 
+}
     }
 }

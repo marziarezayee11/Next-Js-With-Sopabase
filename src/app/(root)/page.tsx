@@ -1,12 +1,17 @@
 import { useTranslations } from "next-intl";
+import Herosection from "../components/homePage/hero";
+import Features from "../components/homePage/Features";
 
 
 
 function page() {
-  const t = useTranslations("home");
+  const t = useTranslations("homepage");
   return (
     <div className=" mt-20 "
-    ><h1>{t("title")}</h1></div>
+    >
+    <Herosection/>
+    <Features/>
+    </div>
   )
 }
 
