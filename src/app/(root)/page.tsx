@@ -7,7 +7,7 @@ import Features from "../components/homePage/Features";
 function page() {
   const t = useTranslations("homepage");
   return (
-    <div className=" mt-20 "
+    <div className=" mt-20 h-fit w-full "
     >
     <Herosection/>
     <Features/>
