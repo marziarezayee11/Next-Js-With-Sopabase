@@ -31,6 +31,23 @@
   "feature4" : {
      "title" : "24/7 SuPpoRt" ,
    "description" : "Our dedicated team is always here to help you anytime, anywhere." } 
+},
+"categories":{
+    "title":"Product Categories",
+    "cat1":{
+    "title":"Men",
+    "description":"Experience lightning-fast performance and seamless navigation"
+    },
+     "cat2":{
+    "title":"Women",
+    "description":"Experience lightning-fast performance and seamless navigation"
+    },
+     "cat3":{
+    "title":"Accessories",
+    "description":"Experience lightning-fast performance and seamless navigation"
+    }
+    
 }
+
     }
 }

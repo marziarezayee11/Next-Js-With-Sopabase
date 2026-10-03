@@ -15,10 +15,24 @@ function Herosection() {
     <Button className='hover:bg-emerald-700 hover:text-white' variant={'outline'}>{t("herosection.btn-join")}</Button>
 </div>
         </div>
+        <Image 
+  src="/images/hero0.png" // آدرس عکس خودتان را بگذارید
+  alt="Hero Illustration"
+  width={600}
+  height={600}
+  className="object-contain dark:invert" 
+/>
 
-    <div>
-        <Image src='/images/hero0.png' alt='HeRo-Image' height={1000} width={1000} />
-    </div>
+
+    {/* <div className="relative overflow-hidden rounded-2xl dark:bg-white p-4">
+  <Image 
+    src="/images/hero0.png" // آدرس عکس خودتان را بگذارید
+    alt="Hero Illustration"
+    width={600}
+    height={500}
+    className="object-contain"
+  />
+</div> */}
     </div>
   )
 }

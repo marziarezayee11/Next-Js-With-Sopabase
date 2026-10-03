@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { Handshake, ShieldCheck, Zap } from 'lucide-react';
+import { Handshake, Headphones, ShieldCheck, Zap } from 'lucide-react';
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
@@ -44,7 +44,18 @@ function Features() {
     {listfeatures.map((feature)=>(
         <Card key={feature.id}>
             <CardHeader className='w-full flex justify-center items-center' >
-                <span>{feature.id===1?<ShieldCheck/>:feature.id===2?<Zap/>:feature.id===3?<Handshake/>:<Handshake/>}</span>
+               <span>
+  {feature.id === 1 ? (
+    <ShieldCheck className="w-16 h-16 border rounded-full p-4 transition-all duration-300 hover:bg-emerald-600 hover:text-white" />
+  ) : feature.id === 2 ? (
+    <Zap className="w-16 h-16 border rounded-full p-4 transition-all duration-300 hover:bg-emerald-600 hover:text-white" />
+  ) : feature.id === 3 ? (
+    <Handshake className="w-16 h-16 border rounded-full p-4 transition-all duration-300 hover:bg-emerald-600 hover:text-white" />
+  ) : (
+    <Headphones className="w-16 h-16 border rounded-full p-4 transition-all duration-300 hover:bg-emerald-600 hover:text-white" />
+  )}
+</span>
+
             </CardHeader>
             <CardContent>
                 <h1 className='font-bold text-xl mb-2'>{feature.title}</h1>

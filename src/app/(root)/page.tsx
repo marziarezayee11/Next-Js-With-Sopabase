@@ -1,7 +1,10 @@
 import { useTranslations } from "next-intl";
 import Herosection from "../components/homePage/hero";
 import Features from "../components/homePage/Features";
-
+import Categories from "../components/homePage/Categories";
+export const metadata ={
+  title:"homepage"
+}
 
 
 function page() {
@@ -11,6 +14,7 @@ function page() {
     >
     <Herosection/>
     <Features/>
+    <Categories/>
     </div>
   )
 }
